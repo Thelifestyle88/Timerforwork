@@ -1,0 +1,52 @@
+@import "nullscss.scss";
+
+
+.container {
+    width: 100%;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.timer {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    &__block {
+        font-size: 40px;
+        line-height: 48px;
+        color: white;
+    }
+}
+
+.buttons {
+    display: flex;
+    width: 50%;
+    margin: 50px auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.results {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 15px;
+    width: 50%;
+    margin: 50px auto 0;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__title {}
+
+    &__body {}
+}
